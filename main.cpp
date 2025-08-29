@@ -3,8 +3,6 @@
 
 // g++ main.cpp -Werror -Wall -pedantic -o game -std=c++17
 
-// 255_168 vs 209_088
-
 const std::string& game::color(char c){
     static const std::string player     = std::string(GREEN) + 'X' + RESET;
     static const std::string computer   = std::string(RED)   + 'O' + RESET;
